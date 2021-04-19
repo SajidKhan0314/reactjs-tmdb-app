@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/reactjs-tmdb-app/static/css/main.197644e7.chunk.css",
+    "main.js": "/reactjs-tmdb-app/static/js/main.262c81a8.chunk.js",
+    "main.js.map": "/reactjs-tmdb-app/static/js/main.262c81a8.chunk.js.map",
+    "runtime-main.js": "/reactjs-tmdb-app/static/js/runtime-main.625d51f5.js",
+    "runtime-main.js.map": "/reactjs-tmdb-app/static/js/runtime-main.625d51f5.js.map",
+    "static/js/2.13b88a62.chunk.js": "/reactjs-tmdb-app/static/js/2.13b88a62.chunk.js",
+    "static/js/2.13b88a62.chunk.js.map": "/reactjs-tmdb-app/static/js/2.13b88a62.chunk.js.map",
+    "static/js/3.18b1c528.chunk.js": "/reactjs-tmdb-app/static/js/3.18b1c528.chunk.js",
+    "static/js/3.18b1c528.chunk.js.map": "/reactjs-tmdb-app/static/js/3.18b1c528.chunk.js.map",
+    "index.html": "/reactjs-tmdb-app/index.html",
+    "static/css/main.197644e7.chunk.css.map": "/reactjs-tmdb-app/static/css/main.197644e7.chunk.css.map",
+    "static/js/2.13b88a62.chunk.js.LICENSE.txt": "/reactjs-tmdb-app/static/js/2.13b88a62.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/reactjs-tmdb-app/static/media/Lato-Light.bfc37ff1.ttf",
+    "static/media/logo.2065310e.svg": "/reactjs-tmdb-app/static/media/logo.2065310e.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.625d51f5.js",
+    "static/js/2.13b88a62.chunk.js",
+    "static/css/main.197644e7.chunk.css",
+    "static/js/main.262c81a8.chunk.js"
+  ]
+}
