@@ -1,0 +1,114 @@
+.Main, .Row, .Column{
+    display: flex;
+}
+
+.Main{
+    background-color: black;
+    flex-direction: column;
+    width: 70%;
+    margin: auto;
+    padding: 0 0 30px 0;
+}
+
+.MovieImg{
+    order: 2;
+    height: auto;
+    object-fit: contain;
+}
+
+.Details{
+    order: 1;
+    background-color: black;
+    color: white;
+    text-align: left;
+    padding: 25px;
+}
+
+.Row{
+    justify-content: space-between;
+}
+
+.Column{
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.MovieTitle{
+    font-family: Lato-Bold,sans-serif;
+    text-transform: uppercase;
+    font-size: 2.5em;
+    font-weight: 700;
+}
+
+.MovieDetails{
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 16px;
+}
+
+.AdditionalDetails{
+    margin-bottom: 20px;
+}
+
+.TagLine{
+    font-size: 1.4em;
+    color: #00FC87;
+    display: block;
+    margin-bottom: 0.25em;
+}
+
+.Row{
+    flex-direction: row;
+}
+
+.AdditionalDetails, .AdditionalDetailsTagline, .TagLine{
+    font-family: Oswald;
+}
+
+.AdditionalDetails, .AdditionalDetailsTagline{
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+@media(min-width: 767px) {
+    .Main{
+        flex-direction: row;
+        align-items: start;
+        width: 70%;
+    }
+
+    .MovieImg{
+        order: 1;
+        width: 35%;
+    }
+
+    .MovieDetails{
+        order: 2;
+    }
+}
+
+@media(min-width: 990px){
+    .Main{
+        width: 760px;
+    }
+
+    .MovieImg{
+        width: 345px;
+    }
+}
+
+@media(min-width: 1200px){
+    .Main{
+        width: 930px;
+    }
+
+    .MovieImg{
+        width: 385px;
+    }
+
+    .Details{
+        /* padding-bottom: 104px; */
+    }
+}
+
