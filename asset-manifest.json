@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/reactjs-tmdb-app/static/css/main.197644e7.chunk.css",
-    "main.js": "/reactjs-tmdb-app/static/js/main.262c81a8.chunk.js",
-    "main.js.map": "/reactjs-tmdb-app/static/js/main.262c81a8.chunk.js.map",
+    "main.js": "/reactjs-tmdb-app/static/js/main.fe825a1a.chunk.js",
+    "main.js.map": "/reactjs-tmdb-app/static/js/main.fe825a1a.chunk.js.map",
     "runtime-main.js": "/reactjs-tmdb-app/static/js/runtime-main.625d51f5.js",
     "runtime-main.js.map": "/reactjs-tmdb-app/static/js/runtime-main.625d51f5.js.map",
     "static/js/2.13b88a62.chunk.js": "/reactjs-tmdb-app/static/js/2.13b88a62.chunk.js",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.625d51f5.js",
     "static/js/2.13b88a62.chunk.js",
     "static/css/main.197644e7.chunk.css",
-    "static/js/main.262c81a8.chunk.js"
+    "static/js/main.fe825a1a.chunk.js"
   ]
 }
