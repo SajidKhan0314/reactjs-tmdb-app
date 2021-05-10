@@ -5,8 +5,6 @@ import { MovieContext } from '../../context/movie-context';
 import Logo from '../Logo/Logo';
 import classes from './Header.module.css';
 
-const apiKey = 'apiKey';
-
 const Header = props => {
     const context = useContext(MovieContext);
     const { setMovieDetails } = context;
@@ -69,7 +67,7 @@ const Header = props => {
         const timer = setTimeout(() => {
             if (enteredMovieName.trim() !== "") {
                 const query = enteredMovieName.split(' ').join('+');
-                axios.get(`https://api.themoviedb.org/3/search/movie?api_key=${apiKey}&query=${query}`)
+                axios.get(`https://api.themoviedb.org/3/search/movie?api_key=${process.env.REACT_APP_API_KEY}&query=${query}`)
                     .then(response => {
                         setMovieList(response.data.results)
                     })
@@ -86,7 +84,7 @@ const Header = props => {
 
     useEffect(() => {
         if (selectedMovie) {
-            axios.get(`https://api.themoviedb.org/3/movie/${selectedMovie}?api_key=${apiKey}`)
+            axios.get(`https://api.themoviedb.org/3/movie/${selectedMovie}?api_key=${process.env.REACT_APP_API_KEY}`)
                 .then(response => {
                     setMovieDetails(response.data);
                 })
